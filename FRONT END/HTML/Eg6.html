@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login Page</title>
+</head>
+<style>
+    h1{
+        color: red;
+    }
+</style>
+
+<body>
+    <fieldset>
+        <legend>FIll THE FORM</legend>
+        <form action="./submit.html" method="get" autocomplete="off" style="text-align: center;">
+            <h1> Registration Form</h1>
+            <label for="username"> username:</label>
+            <input type="text" id="username" placeholder="enter user name" required><br><br>
+            <label for="pw"> password:</label>
+            <input type="password" placeholder="enter password" id="pw" required><br><br>
+            <label for="email"> email:</label>
+            <input type="email" placeholder="enter email" id="email" name="email"><br><br>
+            <label for="no">Contact No</label> 
+            <input type="number" name="ContactNumber" id="no"> <br>
+            <br>
+            <label for="m">Male</label>
+            <input type="radio" name="gender" id="m">
+            <label for="f">Female</label>
+            <input type="radio" name="gender" id="f">
+            <label for="o">Others</label>
+            <input type="radio" name="gender" id="o">
+            <br><br>
+            <input type="submit" value="Register">
+        </form>
+    </fieldset>
+</body>
+
+</html>

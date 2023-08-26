@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="icon" type="image/png" href="../HTML/mumbai.png">
+    <style>
+        #banner{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+           
+        }
+        #content,#img-container {
+            flex : 1;
+        }
+        #content h1{
+            font-size: 60px;
+        }
+        #li {
+            font-size: 25px;
+            line-height: 30px;
+        }
+        #content button {
+            border-radius: 8px;
+            border: none;
+            padding: 10px,20px;
+            background-color: skyblue;
+            padding: 10px 20px;
+            color: brown;
+        }
+        /* If the screen size is 600px wide or less, hide the element */
+        @media only screen and (max-width: 600px) {
+            .banner {
+            flex-direction: column;
+           }
+        }
+
+    </style>
+</head>
+<body>
+    <div id="banner">
+        <div id="content">
+        <h1>India’s #1 Training Institute</h1>
+        <ul>
+            <li>50,000 Trained and Got Better Jobs</li>
+            <li>First Ever Hybrid Institute with Classroom & Online</li>
+            <li>Real time projects, Interviews and Job Support</li>
+        </ul>
+        <button>contact course advisor</button>
+        <button>view courses</button>
+        </div>
+        <div id="img-container">
+            <img src="https://www.digital-lync.com/images/training-course-mid.webp" width="500" height="500" alt="none">
+           
+        </div>
+    </div>
+</body>
+</html>
