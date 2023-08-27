@@ -1,0 +1,21 @@
+#TestOrange{
+    color:orange;
+}
+.Orange{
+    color: white;
+    background-color: orange;
+}
+#TestWhite{
+    color:whitesmoke;
+}
+.White{
+    color: black;
+    background-color: whitesmoke;
+}
+#TestGreen{
+    color:Green;
+}
+.Green{
+    color: white;
+    background-color: green;
+}

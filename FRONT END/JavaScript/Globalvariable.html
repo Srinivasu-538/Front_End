@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+    <script> 
+    var a =10;
+    var b = 20;
+    function f1() {
+        console.log(a); //undefined local variable
+        var a = 20;
+        console.log(b); //20 global variable
+    }
+    f1();
+    console.log(a); //10  global variable
+    </script>
+    
+
+   
+    <script>
+         var a = 100;
+         function f2() {
+         console.log(a);
+          a = 200;
+         }
+         f2();
+         console.log(a);
+
+
+
+
+
+
+    </script>
+</body>
+</html>
